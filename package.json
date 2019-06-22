@@ -1,0 +1,23 @@
+{
+  "name": "weather-clone-starter-pack",
+  "version": "1.0.0",
+  "description": "Starter pack for weather forecast application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumpstartjs/weather-clone-starter-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jumpstartjs/weather-clone-starter-pack/issues"
+  },
+  "homepage": "https://github.com/jumpstartjs/weather-clone-starter-pack#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
