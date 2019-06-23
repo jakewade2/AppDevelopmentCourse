@@ -9,9 +9,14 @@
   padding: 10px;
 }
 
+.h1{
+  font-size: 5rem;
+  font-family: serif;
+}
+
 
 body {
-  background-color: #11014B;
+  background-color: #808080;
   color: white;
   text-align: center;
   font-family: Moonbold, sans-serif;
@@ -20,12 +25,13 @@ body {
 }
 
 .button {
+  font-size: 2rem;
   color: white;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 0.5rem;
   border: 1px solid white;
-  font-family: Moonbold, sans-serif;
+  font-family: Moonbold, cursive;
   margin-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -42,7 +48,26 @@ h1 {
   font-size: 2.5rem;
 }
 
-.inputContainer {
+.cityInput {
+  padding: 0.5rem;
   position: relative;
-  font-size: 15;
+  font-size: 2rem;
+}
+
+.weather {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.weathermain {
+  background-color: #FFD700;
+}
+
+.rain {
+  background-color: #1E90FF;
+}
+
+.snow {
+  background-color: white;
+  color: #808080
 }
